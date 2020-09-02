@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .rainbow {
+            width: 400px;
+            height: 200px;
+            margin: 100px auto;
+            overflow: hidden;
+        }
+        
+        .rainbow div {
+            overflow: hidden;
+            border-radius: 50%;
+        }
+        
+        .rainbow>div {
+            height: 400px;
+            width: 400px;
+            box-sizing: border-box;
+            background: hsl(0, 80%, 50%);
+        }
+        
+        .rainbow>div>div {
+            height: 380px;
+            box-sizing: border-box;
+            margin: 10px;
+            background: hsl(60, 80%, 50%);
+        }
+        
+        .rainbow>div>div>div {
+            height: 360px;
+            box-sizing: border-box;
+            margin: 10px;
+            background: hsl(120, 80%, 50%);
+        }
+        
+        .rainbow>div>div>div>div {
+            height: 340px;
+            box-sizing: border-box;
+            margin: 10px;
+            background: hsl(180, 80%, 50%);
+        }
+        
+        .rainbow>div>div>div>div>div {
+            height: 320px;
+            box-sizing: border-box;
+            margin: 10px;
+            background: hsl(240, 80%, 50%);
+        }
+        
+        .rainbow>div>div>div>div>div>div {
+            height: 300px;
+            box-sizing: border-box;
+            margin: 10px;
+            background: hsl(300, 80%, 50%);
+        }
+        
+        .rainbow>div>div>div>div>div>div>div {
+            height: 280px;
+            box-sizing: border-box;
+            margin: 10px;
+            background: #fff;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="rainbow">
+        <div>
+            <div>
+                <div>
+                    <div>
+                        <div>
+                            <div>
+                                <div></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
